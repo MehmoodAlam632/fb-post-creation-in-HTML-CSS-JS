@@ -1,0 +1,73 @@
+.padding-34 {
+  padding: 34px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.input-box {
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 19px;
+  max-width: 408px;
+  width: 100%;
+  color: #585858;
+  outline: none;
+}
+.margin-left-25 {
+  margin-left: 25px;
+}
+.margin-left-15 {
+  margin-left: 15px;
+}
+.create-button {
+  height: 48px;
+  width: 182px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 280px;
+  cursor: pointer;
+  font-size: 17px;
+  background-color: #3478bf;
+  font-weight: 700;
+  color: white;
+}
+.post {
+  border: 1px solid #ccc;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.d-flex {
+  display: flex;
+}
+.no-photo {
+  height: 65px;
+  margin-right: 20px;
+}
+.like-button {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 50px;
+  padding: 9px 25px;
+  cursor: pointer;
+  background-color: #3478bf;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
+.create-button:hover,
+.like-button:hover {
+  background-color: #054c98;
+}
+.mar-top-12 {
+  margin-top: 12px;
+}
+.des-text {
+  margin-left: 87px;
+  margin-top: 0px;
+}
+.mar-top-60 {
+  margin-top: 60px;
+}

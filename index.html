@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./source/style.css" />
+    <script src="./source/app.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <div class="padding-34">
+        <div>
+          <div>
+            <label class="font-20" for="title">Enter Post Title : </label>
+            <input
+              id="title"
+              type="text"
+              name="title"
+              placeholder="Enter post title"
+              class="input-box margin-left-25"
+            />
+          </div>
+          <br />
+          <br />
+          <br />
+          <div class="d-flex">
+            <label class="font-20" for="description">Enter Description :</label>
+            <textarea
+              rows="5"
+              cols="30"
+              id="description"
+              name="description"
+              class="input-box margin-left-15"
+              placeholder="Enter post description"
+            ></textarea>
+          </div>
+        </div>
+        <div>
+          <button onclick="createPost()" class="create-button">
+            Create Post
+          </button>
+        </div>
+        <h1 class="mar-top-60">Your Posts</h1>
+      </div>
+      <div id="posts" class="padding-34"></div>
+    </div>
+  </body>
+</html>
